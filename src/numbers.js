@@ -26,9 +26,9 @@ const roundUp = (a) => {
   return Math.ceil(a);
 };
 
-function roundDown (a) {
-  // your code here
-}
+const roundDown = (a) => {
+  return Math.floor(a);
+};
 
 function absolute (a) {
   // your code here
