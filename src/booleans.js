@@ -34,17 +34,16 @@ const isLessThanOrEqualTo = (a, b) => {
   return a <= b;
 };
 
+const isOdd = (a) => {
+  return (a % 2) == 1; 
+}
 
-function isOdd(a) {
-  // your code here
+const isEven = (a) => {
+  return (a % 2) == 0;
 };
 
-function isEven(a) {
-  // your code here
-};
-
-function isSquare(a) {
-  // your code here
+const isSquare = (a) => {
+  return Number.isInteger(Math.sqrt(a));
 };
 
 function startsWith(char, string) {
