@@ -18,8 +18,8 @@ const one = (a, b) => {
   return (a || b) && !(a && b);
 };
 
-function truthiness(a) {
-  // your code here
+const truthiness = (a) => {
+  return Boolean(a);
 };
 
 function isEqual(a, b) {
