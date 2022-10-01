@@ -46,16 +46,16 @@ const isSquare = (a) => {
   return Number.isInteger(Math.sqrt(a));
 };
 
-function startsWith(char, string) {
-  // your code here
+const startsWith = (char, string) => {
+  return char == string[0];
 };
 
-function containsVowels(string) {
-  // your code here
+const containsVowels = (string) => {
+  return Boolean(string.match(/[aeiou]/gi));
 };
 
-function isLowerCase(string) {
-  // your code here
+const isLowerCase = (string) => {
+  return string === string.toLowerCase();
 };
 
 module.exports = {
