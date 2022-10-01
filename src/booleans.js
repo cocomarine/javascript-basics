@@ -22,17 +22,18 @@ const truthiness = (a) => {
   return Boolean(a);
 };
 
-function isEqual(a, b) {
-  // your code here
+const isEqual = (a, b) => {
+  return a === b;
 };
 
-function isGreaterThan(a, b) {
-  // your code here
+const isGreaterThan = (a, b) => {
+  return a > b;
 };
 
-function isLessThanOrEqualTo(a, b) {
-  // your code here
+const isLessThanOrEqualTo = (a, b) => {
+  return a <= b;
 };
+
 
 function isOdd(a) {
   // your code here
