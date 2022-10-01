@@ -10,12 +10,12 @@ const either = (a, b) => {
   return a || b;
 };
 
-function none(a, b) {
-  // your code here
+const none = (a, b) => {
+  return !(a || b);
 };
 
-function one(a, b) {
-  // your code here
+const one = (a, b) => {
+  return (a || b) && !(a && b);
 };
 
 function truthiness(a) {
