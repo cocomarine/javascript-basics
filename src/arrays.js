@@ -39,11 +39,11 @@ const reverseWordsInArray = strings => {
 };
 
 const onlyEven = numbers => {
-  // your code here
+  return numbers.filter(x => x % 2 === 0);
 };
 
 const removeNthElement2 = (index, array) => {
-  // your code here
+  return array.filter(x => array.indexOf(x) !== index);
 };
 
 const elementsStartingWithAVowel = strings => {
