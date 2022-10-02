@@ -31,11 +31,11 @@ const numbersToStrings = numbers => {
 };
 
 const uppercaseWordsInArray = strings => {
-  // your code here
+  return strings.map(x => x.toUpperCase());
 };
 
 const reverseWordsInArray = strings => {
-  // your code here
+  return strings.map(x => x.split('').reverse().join(''));
 };
 
 const onlyEven = numbers => {
