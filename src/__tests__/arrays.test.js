@@ -139,7 +139,7 @@ describe('removeNthElement2', () => {
 });
 
 describe('elementsStartingWithAVowel', () => {
-  xit('returns elements starting with a vowel', () => {
+  it('returns elements starting with a vowel', () => {
     expect(
       elementsStartingWithAVowel([
         'apple',
@@ -179,7 +179,7 @@ describe('elementsStartingWithAVowel', () => {
     ).toEqual(['aaaa', 'eeee']);
   });
 
-  xit('is case insensitive', () => {
+  it('is case insensitive', () => {
     expect(
       elementsStartingWithAVowel([
         'Apple',
@@ -221,7 +221,7 @@ describe('elementsStartingWithAVowel', () => {
 });
 
 describe('removeSpaces', () => {
-  xit('returns the string with the space characters removed', () => {
+  it('returns the string with the space characters removed', () => {
     expect(removeSpaces('this string has spaces')).toEqual(
       'thisstringhasspaces'
     );
