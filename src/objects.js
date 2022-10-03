@@ -26,11 +26,11 @@ const getAges = people => {
 };
 
 const findByName = (name, people) => {
-  // your code here
+  return people.find(x => x.name === name);
 };
 
 const findHondas = cars => {
-  // your code here
+  return cars.filter(x => x.manufacturer == 'Honda');
 };
 
 const averageAge = people => {
